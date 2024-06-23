@@ -4,8 +4,6 @@ import "./DetailedPage.css";
 import { headings } from "../../Constants/Headings";
 
 const DetailedPage = (props) => {
-  let dd={...props}
-  console.log(dd)
   const { title, id, farm, server, secret } = props.singlepageinfo[0];
   return (
     <Modal

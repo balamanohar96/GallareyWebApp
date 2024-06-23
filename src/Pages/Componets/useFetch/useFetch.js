@@ -8,7 +8,6 @@ export default function useFetch(url) {
       .then((res) => res.json())
       .then((data) => {
         setData(data.photos.photo);
-        console.log("nn")
       });
   }, [url]);
   return data;
